@@ -1,0 +1,56 @@
+name: fale_baby_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  equatable: ^2.0.3
+  intl: ^0.17.0
+  get_it: ^7.2.0
+  dio: ^5.0.1
+  json_serializable: ^6.5.4
+  flutter_bloc: ^8.0.0
+  freezed: ^2.3.2
+  dartz: ^0.10.0
+  shimmer: ^2.0.0
+  retrofit: ^4.0.1
+  pretty_dio_logger: ^1.3.1
+  flutter_secure_storage: ^8.0.0
+  another_flushbar: ^1.12.29
+  ticket_widget: ^0.0.1
+  flutter_ticket_widget: ^0.0.1
+  diacritic: ^0.1.3
+  badges: ^3.0.3
+  extended_masked_text: ^2.3.1
+  percent_indicator: ^4.2.3
+  flutter_localizations:
+    sdk: flutter
+  fale_baby_design_system:
+    path: ../fale_baby_design_system
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.2.0
+  retrofit_generator: ^5.0.0
+  json_serializable: '>4.4.0'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/footer.png
+    - assets/images/logo-sm.png
+    - assets/images/logo-xg.png
+    - assets/images/splash-background.png
+    - assets/images/splash-logo.png
+    - assets/images/bg-home.png
+
+flutter_intl:
+  enabled: true
